@@ -1,0 +1,60 @@
+<!-- Створити html файл з формою для додавання викладача.
+    Форма повинна містити наступні поля:
+    *Повне ім’я, *стать, *дата народження, *email, *телефон, *бажаний колір фону, *країна, *місто, *коментар.-->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anceta</title>
+    </head>
+    <body style="background-color:powderblue;">
+
+        <h1>Teacher's info</h1>
+
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="dbirth">Date of birth:</label><br>
+            <input type="text" id="dbirth" name="dbirth"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country">
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city"><br>
+
+            <label for="sex">Choose your sex:</label>
+
+            <select name="sex" id="sex" style="margin: 20px;">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="intersex">Intersex</option>
+            </select><br>
+
+            <label for="pnumber">Phone number: (+380)</label>
+            <input type="number" id="pnumber" name="pnumber" min="0" max="999999999"><br>
+
+            <label for="font">Choose font:</label>
+
+            <select name="font" id="font" style="margin: 20px;">
+                <option value="yellow">Yellow</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+            </select><br>
+
+            <label for="comment">Comment:</label><br>
+            <input type="text" id="comment" name="comment"><br>
+
+          </form>
+
+    </body>
+    </html>
