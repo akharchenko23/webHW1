@@ -8,11 +8,21 @@
     <title>Compact variant of teacher info</title>
 </head>
 <body style="background-color:powderblue;">
+    
     <h1>Teacher's info (compact)</h1>
-    <img src="teacher_photo.png" alt="Italian Trulli">
+
+    <!-- <img src="teacher_photo.png" alt="Teacher photo"> -->
+
+    <picture>
+        <source media="(min-width:650px)" srcset="teacher_photo.png">
+        <source media="(min-width:465px)" srcset="teacher_photo.png">
+        <img src="teacher_photo.png" alt="Teacher photo" style="width:auto;">
+      </picture>
+
     <p> Name Last_Name</p>
 
-    <a href="https://www.ukma.edu.ua/">additional</a>
+    <a href="task3.html">additional</a>
+   
 
 
 </body>
