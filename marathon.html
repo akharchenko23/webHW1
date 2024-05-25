@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register to race</title>
+</head>
+<body>
+    <form action="/do">
+        <h1>Race registration!</h1>
+        <p>
+            <label for="first">First name</label>
+            <input type="text" name="firstN" id="first" required>
+        
+            <label for="last">Last name</label>
+            <input type="text" name="lastN" id="last" required>
+        </p>
+        <p>
+            <label for="race">Choose a race</label><br>
+            <label for="5k">5k</label>
+            <input type="radio" name="race" id="5k" value="5k">
+            <label for="10k">10k</label>
+            <input type="radio" name="race" id="10k" value="10k">
+        </p>
+        <p>
+            <label for="email">Enter email</label>
+            <input type="email" name="emailN" id="email" required>
+            <label for="password">Enter password</label>
+            <input type="password" name="passwordN" id="password" minlength="3" required>
+        </p>
+        <p>
+            <label for="age">Enter age</label>
+            <select name="ageN" id="age">
+                <option value="under 18">under 18</option>
+                <option value="18+">18+</option>
+                
+            </select>
+        </p>
+        <p>
+            <label for="agree">I agree</label>
+            <input type="checkbox" name="agreeN" id="agree" required>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
+
+
+

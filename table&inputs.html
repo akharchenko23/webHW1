@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table example</title>
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2">
+                    heading1</th>
+                <th colspan="2"> heading2
+                </th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>name1</td>
+                <td>info1.1</td>
+                <td>info1.2</td>
+            </tr>
+            <tr>
+                <td>name2</td>
+                <td>info2.1</td>
+                <td>info2.2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+<hr>
+
+<form action="https://www.reddit.com/search">
+    <button type="button">Haha</button>
+    <p>
+        <label for="username">enter username</label>
+        <input type="text" placeholder="username" name="q" id="username">
+    </p>
+    <button>Submit</button>
+</form>
+<h3>form 2</h3>
+<form action="none">
+    <section><input type="checkbox" name="checkbox" id="checkbox" checked>
+        <label for="checkbox">I agree</label>
+    </section>
+    <br>
+    <section><label for="m">M</label>
+        <input type="radio" name="size" id="m" value="m">
+        <label for="s">S</label>
+        <input type="radio" name="size" id="s" value="s">
+    </section>
+
+    <p>
+        <label for="selector">Select</label>
+        <select name="selectorName" id="selector">
+            <option value="a">A</option>
+            <option value="w" selected>W</option>
+        </select>
+    </p>
+
+    <p><label for="range">Choose range</label><input type="range" name="rangeN" id="range" value="45" min="10"
+            max="50"></p>
+<p>
+    <label for="textArea">enter text</label>
+    <textarea name="textArea" id="textArea" rows="10" cols="5"></textarea>
+</p>
+
+<p>
+    <label for="id">required</label>
+    <input type="email" id="id" name="id" required minlength="3" maxlength="10">
+</p>
+    <button>Send</button>
+
+</form>
+
+</html>
